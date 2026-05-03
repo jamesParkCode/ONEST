@@ -1,0 +1,7 @@
+packages:
+  - 'core'
+  - 'arm'
+  - 'crm'
+allowBuilds:
+  '@swc/core': true
+  esbuild: true
