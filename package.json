@@ -7,25 +7,7 @@
     "build": "concurrently \"pnpm --filter arm build\" \"pnpm --filter crm build\"",
     "build:prod": "concurrently \"pnpm --filter arm build:prod\" \"pnpm --filter crm build:prod\""
   },
-  "dependencies": {
-    "@types/express": "5.0.3",
-    "@types/jsonwebtoken": "9.0.10",
-    "cookie-parser": "1.4.7",
-    "express": "5.1.0",
-    "express-validator": "7.3.0",
-    "jsonwebtoken": "9.0.2",
-    "vite": "^7.2.2",
-    "vite-node": "3.2.4"
-  },
   "devDependencies": {
-    "@types/cookie-parser": "1.4.9",
-    "@types/react": "^19.2.2",
-    "@types/react-dom": "^19.2.2",
-    "@typescript-eslint/eslint-plugin": "8.46.3",
-    "@typescript-eslint/parser": "8.42.0",
-    "@vitejs/plugin-react-swc": "^3.5.0",
-    "concurrently": "^8.2.2",
-    "nodemon": "^3.1.4",
-    "typescript": "~5.9.3"
+    "concurrently": "^8.2.2"
   }
 }

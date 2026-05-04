@@ -12,21 +12,23 @@
     "dev": "concurrently \"pnpm run client\""
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.105.1",
     "ag-grid-community": "^34.3.1",
     "ag-grid-react": "^34.3.1",
     "axios": "^1.13.1",
+    "bcryptjs": "^3.0.3",
     "react": "^19.2.5",
+    "react-cookie": "^8.0.1",
     "react-dom": "^19.2.5",
     "react-hook-form": "^7.65.0",
-    "react-cookie": "^8.0.1",
     "react-router-dom": "^7.9.5"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@tailwindcss/vite": "^4.1.17",
+    "@types/bcryptjs": "^3.0.0",
     "@types/node": "^24.12.2",
     "@types/react": "^19.2.14",
-    "@tailwindcss/vite": "^4.1.17",
-    "@vitejs/plugin-react-swc": "^3.5.0",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
     "autoprefixer": "^10.4.22",
@@ -37,7 +39,6 @@
     "tailwindcss": "^4.1.17",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.2",
-    "vite": "^8.0.10",
-    "vite-tsconfig-paths": "^5.1.4"
+    "vite": "^8.0.10"
   }
 }

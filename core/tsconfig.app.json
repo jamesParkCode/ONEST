@@ -5,7 +5,7 @@
     "useDefineForClassFields": true,
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
     "module": "ESNext",
-    "types": ["vite/client", "node"],
+    "types": ["node"],
     "skipLibCheck": true,
 
     /* Bundler mode */
@@ -29,10 +29,8 @@
 
     "baseUrl": ".",
     "paths": {
-      "@core/*": ["./*"],
-      "@arm/*": ["../arm/src/*"],
-      "@crm/*": ["../crm/src/*"],
+      "@core/*": ["./*"]
     }
   },
-  "include": ["./types/**/*.d.ts", "../arm/**/*", "../crm/**/*", "**/*"]
+  "include": ["./types/**/*.d.ts", "**/*"]
 }

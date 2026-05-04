@@ -439,6 +439,74 @@
   border-color: #4a7c59;
 }
 
+/* ===== WORK CTA SECTION ===== */
+.work-cta-section {
+  background: #1a1a1a;
+  padding: 120px 40px;
+  text-align: center;
+}
+
+.work-cta-content {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+.work-cta-content.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.work-cta-section .section-label {
+  color: #555;
+  margin-bottom: 32px;
+}
+
+.work-cta-heading {
+  font-family: var(--font-serif);
+  font-size: clamp(32px, 5vw, 56px);
+  font-weight: 400;
+  line-height: 1.2;
+  color: #e5e5e5;
+  margin-bottom: 40px;
+}
+
+.work-cta-button {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: #1a1a1a;
+  background: #e5e5e5;
+  padding: 14px 40px;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+.work-cta-button:hover {
+  background: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.15);
+}
+
+/* ===== PROJECT IMAGE SUPPORT ===== */
+.project-thumbnail-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.project-card:hover .project-thumbnail-img {
+  transform: scale(1.05);
+}
+
+/* ===== MEMBER AVATAR IMAGE SUPPORT ===== */
+.member-avatar-img {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 2px;
+  margin-bottom: 20px;
+}
+
 /* ===== FOOTER ===== */
 .footer {
   background: #111;
