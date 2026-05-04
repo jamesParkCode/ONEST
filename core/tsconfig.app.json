@@ -25,12 +25,7 @@
     "composite": true,
 
     "resolveJsonModule": true,
-    "isolatedModules": true,
-
-    "baseUrl": ".",
-    "paths": {
-      "@core/*": ["./*"]
-    }
+    "isolatedModules": true
   },
   "include": ["./types/**/*.d.ts", "**/*"]
 }
