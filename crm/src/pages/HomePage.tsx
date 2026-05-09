@@ -123,10 +123,9 @@ export default function HomePage() {
             design experiences.
           </h2>
           <p className="about-text">
-            ONEST is a creative studio focused on brand identity,
-            digital experiences, and spatial design. We believe in the
-            power of thoughtful design to transform businesses and
-            create lasting impressions.
+            Studio ONEST(스튜디오 오네)는 크리에이티브 디자인 스튜디오입니다.
+            3D 프린트, 브랜드 아이덴티티, 디지털 경험 설계, 공간 디자인을 전문으로 하며,
+            깊이 있는 디자인으로 비즈니스를 변화시키고 오래 남는 인상을 만듭니다.
           </p>
         </div>
       </section>
@@ -183,8 +182,8 @@ export default function HomePage() {
       {/* Footer */}
       <footer className="footer" id="footer">
         <div className="footer-content">
-          <span className="footer-logo">ONEST</span>
-          <span className="footer-copyright">© 2026 ONEST. All rights reserved.</span>
+          <span className="footer-logo">Studio ONEST</span>
+          <span className="footer-copyright">© 2026 Studio ONEST(스튜디오 오네). All rights reserved.</span>
         </div>
       </footer>
     </div>
