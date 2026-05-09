@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /work/write
+
+Sitemap: https://onest-crm-studio.vercel.app/sitemap.xml
